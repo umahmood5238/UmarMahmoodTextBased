@@ -14,6 +14,28 @@ public class Runner {
             String stand = input.nextLine();
             if (stand.equals("enter")){
                 System.out.println("What will you do?");
+
+                public static String Decisions{
+                    int x = 0;
+                    int y = 0;
+                    int[][] location = new int [10][10];
+
+                    Scanner request1 = new Scanner(System.in);
+                    String entry = request1.nextLine();
+
+                if (entry.equals("north")) {
+
+                }
+                else if (entry.equals("south")) {
+
+                }
+                else if (entry.equals("east")){
+
+                }
+                else if (entry.equals("west")){
+
+                }
+                }
             }
         }
     }
